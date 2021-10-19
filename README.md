@@ -26,23 +26,41 @@ Biography
     }
   
   
-  Temperature
+  Temperature Part 1
   
     #include <iostream>
     using namespace std;
 
     int main()
     {
-        double farenheit;
-        double celcius;
+        double xF;
+        double yC;
 
         cout << "Please enter the temperature in Farenheit: " << endl;
-        cin >> farenheit;
-        celcius = (farenheit - 32) * 0.5556;
-        cout << "= " << celcius << " Celcius" << endl;
+        cin >> xF;
+        yC = (xF - 32) * 0.5556;
+        cout << "= " << yC << " Celsius" << endl;
     }
   
+Temperature Part 2
   
+        #include <iostream>
+        using namespace std;
+
+        int main()
+        {
+            double xC;
+            double yF;
+
+            cout << "Please enter the temperature in Celsius: " << endl;
+            cin >> xC;
+            yF = (xC * 1.8) + 32;
+            cout << "= " << yF << " Farenheit" << endl;
+
+        }
+    
+    
+    
   Circles
   
     #include <iostream>
