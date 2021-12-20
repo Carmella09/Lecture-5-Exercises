@@ -1,4 +1,4 @@
-# LEC-5-
+# LEC-5
 
 
 EXERCISES
