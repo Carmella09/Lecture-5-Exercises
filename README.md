@@ -1,7 +1,7 @@
 # LEC-5
 
 
-EXERCISES
+//EXERCISES
 
 Biography 
 
